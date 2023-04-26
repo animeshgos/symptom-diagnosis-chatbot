@@ -1,0 +1,200 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "symptom": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "diagnosis": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "symptom": ["Bye", "See you later", "Goodbye"],
+      "diagnosis": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "symptom": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "diagnosis": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "purpose",
+      "symptom": [
+        "What is your purpose ?","Who are you ?"
+      ],
+      "diagnosis": [
+        "I give you breif diagnosis of your symptoms",
+        "I am a symptom Diagnosis Chatbot trained using Deep Learning "
+      ]
+    },
+    {
+      "tag": "medical1",
+      "symptom": ["Abdominal Pain"],
+      "diagnosis": ["Abdominal pain describes dull or sharp aching and/or cramping in the organs and tissue in the area between the pelvic region and chest. Common causes can include a bellyache due to poor diet to stomach ulcers or, rarely, cancer of the digestive tract or abdominal organs. Most abdominal pain can be treated at home, although some pain indicates an underlying condition that requires medication or even surgery."]
+    },
+    {
+      "tag" : "medical2",
+      "symptom":["Arm Pain"],
+      "diagnosis":["Arm pain is any pain in the arms, including the shoulder, wrist, and elbow joint. Arm pain is often a sign of overuse, such as typing or playing golf or tennis, but it can be a symptom of heart attack, especially when accompanied by chest pressure, excessive sweating, and nausea. Treatments for arm pain often include rest and ceasing or modifying the physical activity that caused the pain."]
+    },
+     {
+      "tag": "medical3",
+      "symptom":["Back Pain"],
+      "diagnosis":["Back pain is an everyday problem for many people, characterized by pain and discomfort in the lower and upper back, legs, and buttocks that can be mild and episodic or chronic and debilitating. Symptoms associated with back pain include injuries to the nerves, vertebrae, muscles, or tissues in the back area. Treatments are varied, with some people finding relief with over-the-counter pain medication and muscle relaxants, others requiring long-term rehabilitation or even surgery."]
+    },
+    {
+      "tag":"medical4",
+      "symptom":["Body Aches"],
+      "diagnosis":["Body aches are diffuse discomfort felt in the muscles, bones, and tissues, often as a symptom of colds and flu or strenuous exercise. Some people have body aches as a symptom of emotional distress or depression. Body aches usually get better with rest and over-the-counter medication and rarely require medical treatment."]
+    },
+    {
+      "tag":"medical5",
+      "symptom":["Breast Pain"],
+      "diagnosis":["A person with breast pain has aching and discomfort of the skin around the breast area, including breast tissue, the muscles of the chest, upper arms and shoulders, and the nipples. Breast pain is often caused by hormonal fluctuations. It can also be a symptom of fibrocystic breasts and benign or cancerous breast tumors."]
+    },
+    {
+      "tag":"medical6",
+      "symptom":["Breathing Difficulty"],
+      "diagnosis":["A person who has breathing difficulties can't take in enough oxygen due to exhaustion, poor lung function, pressure on the lungs or chest, or an obstruction of the respiratory passages. Common causes of breathing problems include asthma, allergies, viral infections that affect the lungs, and poor physical health. Treatments include bronchodilators and inhalers."]
+    },
+    {
+      "tag":"medical7",
+      "symptom":["Chest Pain"],
+      "diagnosis":["Chest pain is the “clenched fist” feeling of burning discomfort and squeezing in your chest, neck, and arms, often accompanied by sweating, dizziness, and fatigue. While chest pain can have many causes, angina, a type of chest pain caused by reduced blood flow to the heart, could be a symptom of a heart attack and is a medical emergency."]
+    },
+
+    {
+      "tag":"medical8",
+      "symptom":["Cough","Cold"],
+      "diagnosis":["A cough is a protective reflex that clears the throat and respiratory system of irritants and obstructions. Coughs can be dry or productive, which means they clear the lungs of mucus and phlegm, and are often a symptom of environmental pollution or a respiratory infection. Treatments for coughs include over-the-counter cough suppressants or, in the case of chronic cough due to infection, antibiotics or inhaled corticosteroids."]
+    },
+
+    {
+      "tag":"medical9",
+      "symptom":["Diarrhea"],
+      "diagnosis":["Diarrhea means you have very loose or liquid stools three or more times per day over a period of time. Diarrhea is a common symptom of gastrointestinal distress, including viral or bacterial infections or parasites, although it can also be a symptom of poor eating habits and stress. While diarrhea is very common and rarely life-threatening, it can lead to dehydration, so see your doctor if it persists for more than a couple of days."]
+    },
+
+    {
+      "tag":"medical10",
+      "symptom":["Ear Pain"],
+      "diagnosis":["Ear pain usually originates inside the ear canal, but it can also come from pain or injury to the jaw, teeth, head area, or neck. Symptoms of ear pain may include discomfort or ringing of the ears, sinus pain, redness, and bleeding or pus coming from the ear. You can treat most ear pain at home with hot compresses and over-the-counter pain medication, although some ear infections may require treatment with antibiotics."]
+    },
+
+    {
+      "tag":"medical11",
+      "symptom":["Excessive Sweating"],
+      "diagnosis":["A person with excessive sweating has very active sweat glands and produces abundant bodily moisture, especially around the armpits, feet, hands, and groin area. While not life-threatening, these symptoms can cause nervousness, social anxiety, and stigma. Treatments include high-grade topical antiperspirants and Botox injections, to block overactive sweat glands."]
+    },
+
+    {
+      "tag":"medical12",
+      "symptom":["Faintness"],
+      "diagnosis":["Faintness is a very common symptom that makes you feel dizzy, lightheaded, and on the brink of physical collapse due to lack of blood flow to the brain. Causes of faintness include low blood pressure, hypoglycemia, dehydration, head injuries, drug side effects, and vertigo. If you feel faint, the best thing to do is sit or lie down so you don’t fall and injure yourself."]
+    },
+
+    {
+      "tag":"medical13",
+      "symptom":["Fatigue"],
+      "diagnosis":["Fatigue is the feeling of being bone-tired and completely depleted of energy. People become fatigued because of lack of sleep, medication side effects, and extreme exertion, although fatigue is a symptom of many medical problems, including sleep apnea, chronic fatigue syndrome, and autoimmune conditions such as multiple sclerosis and fibromyalgia."]
+    },
+
+    {
+      "tag":"medical14",
+      "symptom":["Fever"],
+      "diagnosis":["A person who has a fever has a body temperature above the normal of 98.6 degrees F. Symptoms associated with fevers include cold, clammy skin; shivering; and an inability to concentrate. Fevers are a common sign of many acute conditions, such as flu. A core body temperature above 104 degrees F is a medical emergency and requires immediate treatment."]
+    },
+
+    {
+      "tag":"medical15",
+      "symptom":["Gas"],
+      "diagnosis":["Flatulence is caused when gas from the intestines and bowels is expelled through the anus. While often embarrassing, passing gas is a natural byproduct of respiration and digestion and rarely constitutes a health problem. Painful or excessive gas can be a symptom of bloating, indigestion, heartburn, ulcerative colitis, or Crohn’s disease."]
+    },
+
+    {
+      "tag":"medical16",
+      "symptom":["Headache"],
+      "diagnosis":["Headaches are continuous pain and tension in the head and neck or behind the eyes. Tension, cluster, and migraine headaches are common headache types, caused by a variety of factors, from lack of sleep to medication use to inflammatory activity in the brain. Many headaches can be treated at home with rest and over-the-counter pain medication."]
+    },
+
+    {
+      "tag":"medical17",
+      "symptom":["Irregular Periods"],
+      "diagnosis":["Your period is considered irregular if it occurs more frequently than every 21 days or lasts longer than 8 days. Most menstrual cycles begin every 28 days. An irregular period can be a symptom of hormonal fluctuations, lifestyle or medication changes, or infertility."]
+    },
+
+    {
+      "tag":"medical18",
+      "symptom":["Joint Pain"],
+      "diagnosis":["Joint pain is a symptom of an injury or illness that affects the bones, ligaments, or tissues in and around the joint areas. The most common cause of joint pain is osteoarthritis, although inflammatory diseases, certain medication, and age can also contribute to joint pain."]
+    },
+
+    {
+      "tag":"medical19",
+      "symptom":["Leg Pain"],
+      "diagnosis":["A person with leg pain has pain or discomfort in the bones, joints, tissue, or nerves of the legs. Symptoms associated with leg pain vary widely but often include overuse and muscle fatigue, osteoarthritis, knee problems, or sciatica."]
+    },
+
+    {
+      "tag":"medical20",
+      "symptom":["Mouth Lesions"],
+      "diagnosis":["Mouth lesions are ulcers or nicks in and around the lips, tongue, and gum areas, most often a symptom of canker sores or fever blisters (herpes). Mouth lesions can also be caused by acidic food or drinks, gum disease, sun damage, brushing or flossing too hard, or braces."]
+    },
+
+    {
+      "tag":"medical21",
+      "symptom":["Nausea"],
+      "diagnosis":["A person with nausea has the feeling that they are going to vomit. Nausea is a common symptom of viral infections such as flu, although it can also be a symptom of food poisoning, altitude sickness, motion sickness, or emotional trauma. At-home treatments for nausea include rest, bland food, cold carbonated drinks, ginger tea, and applying pressure to the inside of the wrist."]
+    },
+
+    {
+      "tag":"medical22",
+      "symptom":["Neck Pain"],
+      "diagnosis":["Neck pain is a common symptom of poor posture, muscle sprains, osteoarthritis, and age. Neck pain is sometimes caused by damage to the vertebrae, including bone disorders and rheumatoid arthritis. Treatments for neck pain vary by cause, from ergonomic solutions to surgery."]
+    },
+
+    {
+      "tag":"medical23",
+      "symptom":["Rash"],
+      "diagnosis":["A skin rash is an area on the surface of the body that has become red, swollen, or irritated. Skin rashes are often a symptom of allergies, fungal infections, eczema, psoriasis, sun damage, or shingles. The severity and type of rash you have will determine the appropriate treatment."]
+    },
+
+    {
+      "tag":"medical24",
+      "symptom":["Skin Lump"],
+      "diagnosis":["Skin lumps come in all shapes and sizes, occur more frequently with age, and are usually symptoms of moles, warts, cysts, and common skin infections. While some skin lumps are itchy or unsightly, most are benign. Skin lumps are rarely a symptom of skin cancer, but you should see a doctor if you have a visible bump that changes shape, bleeds, or starts to grow rapidly."]
+    },
+
+    {
+      "tag":"medical25",
+      "symptom":["Sore Throat"],
+      "diagnosis":["A sore throat feels scratchy, itchy, dry, and painful, and makes it hard to swallow. Symptoms associated with sore throats include swollen glands, fever, cough, and a headache, usually caused by a cold, flu, strep, or allergies. Most sore throats can be treated at home with rest, liquids, and over-the-counter cough medication."]
+    },
+
+    {
+      "tag":"medical26",
+      "symptom":["Vaginal Itching"],
+      "diagnosis":["Itching in the vagina is often a symptom of a normal bacterial infection called bacterial vaginosis. It can also be a symptom of a yeast infection or a sexually transmitted disease such as a herpes, gonorrhea, genital warts, crabs, or chlamydia. Treatment for vaginal itching caused by a sexually transmitted disease is usually an antiviral or antifungal medication."]
+    },
+
+    {
+      "tag":"medical27",
+      "symptom":["Vomiting"],
+      "diagnosis":["Vomiting is the unpleasant, forceful expulsion of stomach contents through the mouth, usually preceded by nausea. Symptoms associated with vomiting include stomach flu and other viral infections, excessive drug and/or alcohol consumption, food poisoning, or, less commonly, head injuries. While vomiting is rarely a medical emergency, see your doctor if there is fresh or dried blood present in the vomit or if you can’t stop vomiting."]
+    }
+  ]
+}
