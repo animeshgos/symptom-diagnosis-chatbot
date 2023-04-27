@@ -4,5 +4,6 @@ jsonify==0.5
 torch==1.12.1
 spacy==3.5.2
 numpy==1.21.6
+wheel==0.38.4
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
 gunicorn==20.1.0
