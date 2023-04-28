@@ -14,3 +14,6 @@ The model is trained for 1000 epochs, and during each epoch. The model predictio
 The bag of words vector is then passed through the trained neural network to obtain a prediction of the intent of the input message. The highest-scoring output from the neural network is selected as the predicted intent.
 
 If the predicted intent has a probability above a threshold of 0.75, the chatbot selects a response at random from the list of responses associated with the predicted intent. Otherwise, the chatbot responds with a default message "I do not understand...".
+
+#WebApp:
+The chatbot has been deployed as a web app using flask for backend connectivity and basic html,css and javascript for the front end.
