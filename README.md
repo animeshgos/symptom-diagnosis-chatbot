@@ -5,7 +5,7 @@ A chatbot trained on json file consisting of symptoms and their respective diagn
 Preprocessing was done using spacy which involves tokenization of text, and further removal of stop words for efficient training,then lemmatization of each word to get its base form.
 The words are then returned as  a binary bag of words vector representation of the sentence as a numpy array.
 
-#Training:
+# Training:
 The model was implemented using PyTorch , the implementation is straightforward with a Feed Forward Neural net with 2 hidden layers.
 The model is a three-layer feedforward neural network with ReLU activation function.
 The PyTorch criterion and optimizer were set up using the Cross Entropy Loss and the Adam optimizer, respectively.
